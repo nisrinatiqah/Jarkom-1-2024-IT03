@@ -98,6 +98,9 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 
 - ![WhatsApp Image 2024-09-19 at 00 00 14_34beb25b](https://github.com/user-attachments/assets/ad651566-d340-4e1e-a234-37fab471d9e7)
 
+- ![WhatsApp Image 2024-09-18 at 23 05 47_4efe54c7](https://github.com/user-attachments/assets/0e628c05-2ded-42dd-9b00-7b89fd713368)
+
+
 
 
 ---
@@ -135,6 +138,7 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 
 ### Dokumentasi Pengerjaan
 
-- ![WhatsApp Image 2024-09-18 at 23 59 30_962951cc](https://github.com/user-attachments/assets/c184343f-b818-4d91-b326-903f7521a989)
+- ![WhatsApp Image 2024-09-18 at 23 05 47_6add4547](https://github.com/user-attachments/assets/2acd389a-1509-40e1-84fe-f1f4dec86f3f)
+
 
 - ![WhatsApp Image 2024-09-19 at 00 00 14_34beb25b](https://github.com/user-attachments/assets/ad651566-d340-4e1e-a234-37fab471d9e7)
