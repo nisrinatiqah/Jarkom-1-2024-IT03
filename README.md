@@ -28,9 +28,15 @@ Seorang full-stack developer bernama kevin sedang membuat sebuah web yang memili
 JarkomIT{d34th_fr0m_th3_sky_ujnhBlSSgFrizPCi7uDFWxfHNH1ykEKkXxSvbZpjeAVKenC4XRnsWW1}
 
 ### Penjelasan 
-1. Buka Analyze > Follow > TCP Stream 
-2. Buka slide stream selanjutnya dan coba coba email yang muncul
-3. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
+1. Buka Analyze > Follow > TCP Stream
+2. IP Address Korban: Setelah beberapa kali mencoba, ditemukan bahwa IP korban adalah 172.21.88.207.
+3. Port Webserver: Port yang digunakan oleh webserver korban adalah 1917.
+4. Login Endpoint: Endpoint untuk login berada di /wml.
+5. Tools yang Digunakan Attacker: Setelah mencoba beberapa tool, penyerang menggunakan Fuzz Faster U Fool (ffuf) versi v2.1.0-dev.
+6. Setelah itu ditemukannya bahwa Username: admin,  Password: fMyqjdC43
+
+3. Buka slide stream selanjutnya dan coba coba email yang muncul
+4. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
 
 ### Dokumentasi Pengerjaan
 
