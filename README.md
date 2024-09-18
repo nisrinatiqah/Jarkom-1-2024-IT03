@@ -25,14 +25,18 @@
 Seorang full-stack developer bernama kevin sedang membuat sebuah web yang memiliki login page. Tetapi karena ia hanya digaji rendah, ia lupa untuk mengamankan web yang ia buat. Bantulah kevin untuk tracing dari jejak yang ditinggalkan oleh attacker.
 
 ### Flag
-JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjnGvG6}
+JarkomIT{d34th_fr0m_th3_sky_ujnhBlSSgFrizPCi7uDFWxfHNH1ykEKkXxSvbZpjeAVKenC4XRnsWW1}
 
 ### Penjelasan 
-1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
+1. Buka Analyze > Follow > TCP Stream 
 2. Buka slide stream selanjutnya dan coba coba email yang muncul
 3. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
 
 ### Dokumentasi Pengerjaan
+
+- ![WhatsApp Image 2024-09-19 at 00 47 47_e86ec266](https://github.com/user-attachments/assets/f5afde85-bc2a-4cc4-a256-aed50fb930d1)
+
+- ![WhatsApp Image 2024-09-19 at 00 47 47_e865c3de](https://github.com/user-attachments/assets/73a20309-c305-4da3-8667-748af405672c)
 
 
 
@@ -43,12 +47,12 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 Seseorang menemukan sebuah celah dalam sebuah server. Ia mencoba untuk melakukan brute force login dan ia berhasil masuk. Lakukan pemeriksaan untuk melihat apa yang dilakukan oleh orang tersebut!
 
 ### Flag
-
-Sebelum lanjut ke langkah pertama, download file yang dibutuhkan menggunakan
-command `wget` seperti berikut :
+JarkomIT{n0t_s0_s3cur3_ftp_Ga1QFVuduiIMivZHvHaruQtsEL0VuCqOCWISuOAehGh0ttrovDrxG1N}
 
 ### Penjelasan 
-
+1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
+2. Buka slide stream selanjutnya dan coba coba email yang muncul
+3. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
 
 ### Dokumentasi Pengerjaan
 
@@ -64,7 +68,7 @@ Setelah mengetahui apa yang diketahui pada challenge sebelumnya, sekarang lakuka
 File sama seperti FTP Login.
 
 ### Flag
-JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjnGvG6}
+JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_GZukOIsxbZXnTC6nybWtwpa6PG0EwV7Fr4KVPdR6Foky9fCZVTIJTCHU}
 
 ### Penjelasan 
 1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
@@ -129,7 +133,7 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk menjawab soal ini
 
 ### Flag
-JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjnGvG6}
+JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T5}
 
 ### Penjelasan 
 1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
