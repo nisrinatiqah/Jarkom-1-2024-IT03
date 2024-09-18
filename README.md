@@ -118,7 +118,7 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 
 ### Dokumentasi Pengerjaan
 
--![WhatsApp Image 2024-09-19 at 00 25 05_9ee459b0](https://github.com/user-attachments/assets/ac7b2f2d-dd9b-4de4-aa43-56b99a80f54e)
+- ![WhatsApp Image 2024-09-19 at 00 25 05_9ee459b0](https://github.com/user-attachments/assets/ac7b2f2d-dd9b-4de4-aa43-56b99a80f54e)
 
 
 
