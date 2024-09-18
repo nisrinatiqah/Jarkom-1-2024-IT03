@@ -35,9 +35,6 @@ JarkomIT{d34th_fr0m_th3_sky_ujnhBlSSgFrizPCi7uDFWxfHNH1ykEKkXxSvbZpjeAVKenC4XRns
 5. Tools yang Digunakan Attacker: Setelah mencoba beberapa tool, penyerang menggunakan Fuzz Faster U Fool (ffuf) versi v2.1.0-dev.
 6. Setelah itu ditemukannya bahwa Username: admin,  Password: fMyqjdC43
 
-3. Buka slide stream selanjutnya dan coba coba email yang muncul
-4. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
-
 ### Dokumentasi Pengerjaan
 
 - ![WhatsApp Image 2024-09-19 at 00 47 47_e86ec266](https://github.com/user-attachments/assets/f5afde85-bc2a-4cc4-a256-aed50fb930d1)
