@@ -39,6 +39,8 @@ JarkomIT{d34th_fr0m_th3_sky_ujnhBlSSgFrizPCi7uDFWxfHNH1ykEKkXxSvbZpjeAVKenC4XRns
 
 - ![WhatsApp Image 2024-09-19 at 00 47 47_e86ec266](https://github.com/user-attachments/assets/f5afde85-bc2a-4cc4-a256-aed50fb930d1)
 
+- ![WhatsApp Image 2024-09-18 at 23 05 48_1fde54df](https://github.com/user-attachments/assets/e8b770ac-4cb6-4aa1-a82e-50b57ef17f54)
+
 - ![WhatsApp Image 2024-09-19 at 00 47 47_e865c3de](https://github.com/user-attachments/assets/73a20309-c305-4da3-8667-748af405672c)
 
 
