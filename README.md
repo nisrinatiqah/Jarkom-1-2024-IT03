@@ -53,9 +53,10 @@ Seseorang menemukan sebuah celah dalam sebuah server. Ia mencoba untuk melakukan
 JarkomIT{n0t_s0_s3cur3_ftp_Ga1QFVuduiIMivZHvHaruQtsEL0VuCqOCWISuOAehGh0ttrovDrxG1N}
 
 ### Penjelasan 
-1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
-2. Buka slide stream selanjutnya dan coba coba email yang muncul
-3. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
+1. Buka file PCAP dan gunakan filter ftp untuk melihat percobaan login FTP.
+2. Gunakan filter ftp.request.command == "USER" dan ftp.request.command == "PASS".
+3. Setelah beberapa kali mencoba, username yang benar adalah sn4k3y dan password supersn1ff3r.
+4. Setelah login berhasil, flag yang ditemukan adalah JarkomIT{n0t_s0_s3cur3_ftp_Ga1QFuviudiMizVHyHaruQtSEl0VuCqOCWISuoAehGHottr0vDrxG1N}
 
 ### Dokumentasi Pengerjaan
 
