@@ -75,9 +75,10 @@ File sama seperti FTP Login.
 JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_GZukOIsxbZXnTC6nybWtwpa6PG0EwV7Fr4KVPdR6Foky9fCZVTIJTCHU}
 
 ### Penjelasan 
-1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
-2. Buka slide stream selanjutnya dan coba coba email yang muncul
-3. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
+1. Buka file PCAP dan gunakan filter ftp untuk menganalisis percakapan FTP.
+2. Identifikasi data yang dikirim melalui protokol FTP.
+3. Dengan menganalisis traffic, kita bisa mengetahui service yang digunakan oleh server FTP. Dari data yang ada, service tersebut adalah vsFTPd 3.0.3.
+4. Gunakan filter untuk melihat file transfer yang terjadi. Berdasarkan hasil filter, file yang dikirim adalah h4lo_world.txt.
 
 ### Dokumentasi Pengerjaan
 
@@ -140,9 +141,11 @@ Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk
 JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T5}
 
 ### Penjelasan 
-1. Buka Analyze > Follow > TCP Stream = Langsung terlihat di stream pertama terdapat text "Hello, my name is Nakhimov and I'm here trying to get in to your system. I'm sorry, but your system is too weak for me. I'm in." Bisa terlihat bahwa nama attacker adalah Nakhimov.
-2. Buka slide stream selanjutnya dan coba coba email yang muncul
-3. Setelah di slide stream 207 terdapat tulisan "email=jarkomsupport%40gmail.com&password=j4rk0mg4c0rbg". Sehingga didapat emailnya jarkomsupport@gmail.com (hilangkan %40) dan passwordnya j4rk0mg4c0rbg. Flag langsung muncul!
+1. Gunakan filter dns untuk menampilkan query DNS yang terjadi selama komunikasi.
+2. Dari hasil analisis DNS, domain yang muncul adalah www.its.ac.id.
+3. Setelah melakukan analisis lebih lanjut, kita dapat menemukan bahwa IP address dari domain tersebut adalah 103.94.189.5.
+4. Pada bagian ini, tantangan meminta kita untuk melakukan fingerprinting JARM (TLS Fingerprinting). Hasil fingerprint dari domain yang dianalisis adalah abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789
+5. Setelah itu muncullah flag nya
 
 ### Dokumentasi Pengerjaan
 
