@@ -150,6 +150,10 @@ JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T
 
 ### Dokumentasi Pengerjaan
 
-- /home/kali/Pictures/Screenshot_2024-09-21_03_34_27.png
+- Jarm :
+  ![WhatsApp Image 2024-09-21 at 14 42 10_a8b1aede](https://github.com/user-attachments/assets/dc51b87c-2a88-42a3-880d-d54222669136)
+
+  ![WhatsApp Image 2024-09-21 at 14 42 10_e391d221](https://github.com/user-attachments/assets/aa394f75-ed36-48b5-9c36-93618616ec1b)
+
 - ![WhatsApp Image 2024-09-18 at 23 05 47_6add4547](https://github.com/user-attachments/assets/2acd389a-1509-40e1-84fe-f1f4dec86f3f)
 
