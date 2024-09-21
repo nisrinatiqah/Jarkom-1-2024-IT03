@@ -31,9 +31,8 @@ JarkomIT{d34th_fr0m_th3_sky_ujnhBlSSgFrizPCi7uDFWxfHNH1ykEKkXxSvbZpjeAVKenC4XRns
 1. Buka Analyze > Follow > TCP Stream
 2. IP Address Korban: Setelah beberapa kali mencoba, ditemukan bahwa IP korban adalah 172.21.88.207.
 3. Port Webserver: Port yang digunakan oleh webserver korban adalah 1917.
-4. Login Endpoint: Endpoint untuk login berada di /wml.
-5. Tools yang Digunakan Attacker: Setelah mencoba beberapa tool, penyerang menggunakan Fuzz Faster U Fool (ffuf) versi v2.1.0-dev.
-6. Setelah itu ditemukannya bahwa Username: admin,  Password: fMyqjdC43
+4. Tools yang Digunakan Attacker: Setelah mencoba beberapa tool, penyerang menggunakan Fuzz Faster U Fool (ffuf) versi v2.1.0-dev.
+5. Setelah itu ditemukannya bahwa Username: admin,  Password: fMyqjdC43
 
 ### Dokumentasi Pengerjaan
 
@@ -151,5 +150,6 @@ JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T
 
 ### Dokumentasi Pengerjaan
 
+- /home/kali/Pictures/Screenshot_2024-09-21_03_34_27.png
 - ![WhatsApp Image 2024-09-18 at 23 05 47_6add4547](https://github.com/user-attachments/assets/2acd389a-1509-40e1-84fe-f1f4dec86f3f)
 
