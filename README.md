@@ -9,12 +9,44 @@
 
 # Daftar Isi
 
+- [Advance Sanity Check](#advance-sanity-check)
 - [Illegal Breakthrough](#illegal-breakthrough)
 - [FTP Login](#ftp-login)
 - [Suprise](#surprise)
 - [Corporate Breach](#corporate-breach)
 - [EZ](#ez)
 - [Rizzset](#rizzset)
+
+
+
+---
+## Advance Sanity Check
+---
+### Flag 
+JarkomIT{8uK4n_S4n1ty_b1a5A_bdn4Detuf541FMl1x30hSjSRCSu5ADKKZvHn0ZOZ3x1O2HzLW5SftIKK}
+
+### Penjelasan
+1. Buka Statistic > Protocol Hierarchy. Cari yang percentage bytes nya paling tinggi, ditemukan bahwa yang Hypertext Transfer Protocol (http) yang paling tinggi
+2. Filter http dan buka follow > http stream
+3. Untuk username ditemukan di stream slide ketiga yaitu JaneD03
+4. Lalu diminta mencari namefile.extension, langsung terlihat di slide keempat stream nya yaitu Clue3.txt
+5. Di stream keempat itu juga terdapat pesan rahasia yang diarahkan ke ppt peraturan praktikum jarkom di slide bagian soal shift.
+6. Terdapat code cGVud29yZA==
+7. Terjemahkan dari code Base64 dan hasilnya "penword". Flag telah ditemukan!
+
+### Dokumentasi Pengerjaaan
+- Username
+  ![WhatsApp Image 2024-09-22 at 14 08 16_620136c9](https://github.com/user-attachments/assets/2a588614-b1e9-48c2-adc6-dd1bf83f29e4)
+
+- File
+  ![WhatsApp Image 2024-09-22 at 13 51 05_a2049ba5](https://github.com/user-attachments/assets/458e7dca-275c-4286-8454-fd51d027b262)
+
+- Pesan Rahasia
+  ![WhatsApp Image 2024-09-22 at 13 51 05_1263534e](https://github.com/user-attachments/assets/6011be20-77b5-4e11-9153-f5824eb93258)
+  
+  ![Screenshot 2024-09-22 132326](https://github.com/user-attachments/assets/ef3ce2ec-25a1-41b1-9500-8b76e11add7c)
+  
+  ![WhatsApp Image 2024-09-22 at 14 08 16_8b9b04e0](https://github.com/user-attachments/assets/2163fa2d-2ed6-4ef8-a78c-e0e28fa00cf5)
 
 
 
