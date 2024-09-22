@@ -77,9 +77,20 @@ JarkomIT{d34th_fr0m_th3_sky_ujnhBlSSgFrizPCi7uDFWxfHNH1ykEKkXxSvbZpjeAVKenC4XRns
 
 
 ---
+## Packets Barrage
+---
+Setelah membantu kevin untuk tracing attacker, sekarang bantu lagi kevin untuk mencari apa yang dilakukan oleh attacker.
+File sama seperti Illegal Breakthrough.
+
+### Flag
+### Penjelasan
+### Dokumentasi Pengerjaan
+
+
+
+---
 ## FTP Login
 ---
-### Deskripsi
 Seseorang menemukan sebuah celah dalam sebuah server. Ia mencoba untuk melakukan brute force login dan ia berhasil masuk. Lakukan pemeriksaan untuk melihat apa yang dilakukan oleh orang tersebut!
 
 ### Flag
@@ -144,11 +155,36 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 
 
 
+---
+## Pegawai Negeri Sebelah
+---
+Kamu seorang data analisis diminta untuk memastikan ulang data-data dari beberapa pegawai.
+
+### Flag
+JarkomIT(TumdeN_p455nYa_Kust BlaS4Nya_DGYEneWuK6ZLfbfTapMERPNAOL35hBROAG La1Mp0XZ6sZWCTSRKKM4H
+
+### Penjelasan
+1.  Buka Analyze > Follow > TCP Stream. Terlihat bahwa banyak nama, password, dan jabatan dari masing-masing orang.
+2.  Cara saya untuk mencari semua jawaban dari pertanyaan saya menggunakan fitur Find yang ada dibawah.
+3.  Siapa yang memiliki password nNnM%coQuF? = Vero Tampubolon
+4.  Apa jabatan dari Taufan Kuswandari? = Analis Kebijakan
+5.  Siapa yang paling awal di list? = Cici Mustofa
+6.  Apa password paling akhir di list? = RyxaJPv^yF
+
+### Dokumentasi Pengerjaan
+- ![WhatsApp Image 2024-09-22 at 13 51 05_a0f71734](https://github.com/user-attachments/assets/d9137646-c410-4ac0-acbc-ddcb4a508492)
+  
+- ![WhatsApp Image 2024-09-22 at 13 51 05_04cac21d](https://github.com/user-attachments/assets/fcfabf91-3456-45c9-aff6-127c7ce1e022)
+
+- ![WhatsApp Image 2024-09-22 at 13 51 05_b0fe3023](https://github.com/user-attachments/assets/55546610-9559-4bcd-ae35-0867b0ef2346)
+
+- ![WhatsApp Image 2024-09-22 at 13 51 05_2a7c09d8](https://github.com/user-attachments/assets/8848e357-3fc6-453f-bde1-b4139ba62310)
+
+
 
 ---
 ## EZ
 ---
-### Deskripsi
 Aku sedang mencoba bikin chat service tapi kayanya pesannya bisa di sniffing deh? coba temukan pesannya.
 
 ### Flag
@@ -167,7 +203,6 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_v8CT00tWiKLnufX5HNXFOOMsvG6RTEzIuFa4BhPXImZ68pDXjn
 ---
 ## Rizzset
 ---
-### Deskripsi
 Aku sedang bereksperimen dengan suatu tools, kamu juga bisa menggunakannya untuk menjawab soal ini
 
 ### Flag
@@ -181,7 +216,6 @@ JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T
 5. Setelah itu muncullah flag nya
 
 ### Dokumentasi Pengerjaan
-
 - Jarm :
   ![WhatsApp Image 2024-09-21 at 14 42 10_a8b1aede](https://github.com/user-attachments/assets/dc51b87c-2a88-42a3-880d-d54222669136)
 
