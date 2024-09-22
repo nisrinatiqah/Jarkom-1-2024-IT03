@@ -242,3 +242,15 @@ JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T
 
 - ![WhatsApp Image 2024-09-18 at 23 05 47_6add4547](https://github.com/user-attachments/assets/2acd389a-1509-40e1-84fe-f1f4dec86f3f)
 
+
+
+---
+## Gajah Terbang Server Recon
+---
+### Penjelasan
+1. Buka file gajahterbang dan langsung terlihat di packets yaitu PGSL = PostgreSQL untuk DBMS dan 6969 untuk port nya
+2. Buka TCP Stream. Terdapat banyak username, nama, email, password. Di stream yang ke-9 menemukan:
+   credentials username =
+   nama database
+   email, dan berapa banyak usersnya.
+4. Untuk password yang digunakan admin yaitu c93ccd78b2076528346216b3b2f701e6 tetapi di terjemahkan dari MD5 sehingga menjadi admin1234
