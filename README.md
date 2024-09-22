@@ -83,8 +83,25 @@ Setelah membantu kevin untuk tracing attacker, sekarang bantu lagi kevin untuk m
 File sama seperti Illegal Breakthrough.
 
 ### Flag
+JarkomIT{th3_fly1ng_c1rcus_0f_w4r_ffpJyPbN32qwtIK2L24fb1Bie5StjPiKJsE97wzEm2kvop3o6DNzgACE}    
+
 ### Penjelasan
+1. Buka file break.cpapng dan langsung terlihat diawal ada di source paling atas yaitu 172.21.80.1 yang merupakan IP address dari attacker, berhasil dalam sekali coba.
+2. Untuk total attempt nya saya terpikir bahwa diambil dari dari nomor port di seblah kiri bawah yaitu 1917.
+3. Buka export object yang http dan terlihat di paling bawah ada file Regev.zip
+4. Download dan unzip file Regev.zip dan terdapat file Albatros.txt yang merupakan file yang didwonload attacker setelah login.
+5. Buka file Albatros.txt untuk menjawab pertanyaan terakhir, isi filenya "Der Rote Kampfflieger"
+
 ### Dokumentasi Pengerjaan
+- IP address & attempt attacker
+  ![WhatsApp Image 2024-09-22 at 16 20 31_29ecbf2c](https://github.com/user-attachments/assets/b47f1a29-00a2-4261-bbed-59746b8cb297)
+
+  ![WhatsApp Image 2024-09-22 at 16 20 31_6fe1999d](https://github.com/user-attachments/assets/4917c5a3-423c-446d-9e54-d33200dfdcc3)
+
+- File
+  ![WhatsApp Image 2024-09-22 at 16 20 31_fcc0447f](https://github.com/user-attachments/assets/aebd5bf9-85a4-4f81-8065-53a445fc6001)
+  
+  ![WhatsApp Image 2024-09-22 at 17 00 49_2402702f](https://github.com/user-attachments/assets/c96373ab-3b57-4a7b-b763-8407656ec89e)
 
 
 
