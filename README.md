@@ -1,4 +1,4 @@
-# Laporan Resmi Praktikum Jarkom 2024 Modul-1
+# Laporan Resmi Praktikum Jarkom Modul-1 2024
 
 ---
 
@@ -18,6 +18,7 @@
 - [EZ](#ez)
 - [Rizzset](#rizzset)
 - [Gajah Terbang Server Recon](#gajah-terbang-server-recon)
+- [Gajah Terbang Attacker Recon](#gajah-terbang-attacker-recon)
 
 
 
@@ -247,10 +248,58 @@ JarkomIT{Dn5_C0rR34t10n_RM4ATQf7sTjZniTS1HjR3LZxwr1zZzbYYVgAX8I5Hu9PkDFFkUzhCv1T
 ---
 ## Gajah Terbang Server Recon
 ---
+Pada perusahaan PT. +1000 Aura telah terjadi insiden yang besar, dimana seorang hengker berhasil masuk ke sistem database perusahaan tersebut, dan melakukan manipulasi sistem database mereka. Anda sebagai profesional Cyber Security Analyst ditugaskan untuk melakukan investigasi melalui log network yang berhasil tercapture!
+
+### Flag
+JarkomIT{Gy4tT_M5g_4U_LB4QO2Bo5nBfpbMyrJdMH4UjL5k1wz4WluM7OvBUZJRiZf6tQikMUBiD1} 
+
 ### Penjelasan
-1. Buka file gajahterbang dan langsung terlihat di packets yaitu PGSL = PostgreSQL untuk DBMS dan 6969 untuk port nya
+1. Buka file gajahterbang dan langsung terlihat di packets yaitu PGSL = PostgreSQL untuk DBMS dan saya mencoba satu satu dan menemukan 6969 untuk port nya
 2. Buka TCP Stream. Terdapat banyak username, nama, email, password. Di stream yang ke-9 menemukan:
-   credentials username =
-   nama database
-   email, dan berapa banyak usersnya.
-4. Untuk password yang digunakan admin yaitu c93ccd78b2076528346216b3b2f701e6 tetapi di terjemahkan dari MD5 sehingga menjadi admin1234
+   jenis OS = Debian
+   credentials username = s1gm4
+   nama database = sigmaskibidigyatrizzzz
+   email = jojohermawan@gmail.com
+   berapa banyak usersnya = 4
+3. Untuk password yang digunakan admin yaitu c93ccd78b2076528346216b3b2f701e6 tetapi di terjemahkan dari MD5 sehingga menjadi admin1234.
+
+### Dokumentasi Pengerjaan
+- ![WhatsApp Image 2024-09-22 at 18 07 47_662328fc](https://github.com/user-attachments/assets/3a7bf5b5-80f4-43e5-83cc-f24281ddb49c)
+
+- ![WhatsApp Image 2024-09-22 at 18 17 23_d175ce40](https://github.com/user-attachments/assets/fb13c045-4436-451f-8f54-ca666a10d890)
+
+- ![WhatsApp Image 2024-09-22 at 23 46 04_c24cd949](https://github.com/user-attachments/assets/d0e14289-f0fb-4d7d-83a0-9460708e4d68)
+
+
+- Dekrip password
+  ![image](https://github.com/user-attachments/assets/530635c8-6517-4643-95dd-65513fe563a4)
+
+- ![WhatsApp Image 2024-09-22 at 23 46 04_fcc31db1](https://github.com/user-attachments/assets/176ef27c-832b-43a3-bc5d-60f4fa96b985)
+
+
+
+---
+## Gajah Terbang Attacker Recon
+---
+Setelah berhasil menginvestigasi server yang berjalan, kamu diharuskan untuk mencari identitas dan mencari jejak apa saja yang telah dilakukan oleh penyerang! Kamu jago, pasti bisa let’s go temukan tersangkanya!!!
+File sama seperti Gajah Terbang.
+
+### Flag
+JarkomIT{G4jaH_K0k_t3RbaNG_fZZeeDj9u2l6tr96Al95PQkMvYntNLCuzuPtDsSHuaxkLByJSZxZiKt5}                    
+
+### Penjelasan
+1. Masih di slide steam yang sama, stream ke-9 menemukan usernamenya yaitu kuntoajiisrillll@gmail.com
+2. Untuk passwordnya adalah aa1cbddbb1667f7227bcfdb25772f85c yang diterjemahkan dari MD5 sehingga hasilnya "kissme"
+3. Untuk menjawab pertanyaan kapan akun penyerang diban, langsung saja cari keterangan yang "SELECT * from banned_users" sehingga ditemukan tanggal 2024-06-09
+4. Untuk menjawab tabel apa sja yang dimodif, bisa dilihat yaitu tabel users dan banned_users dengan menggunakan fungsi update dan delete
+5. Untuk menjawab
+
+### Dokumentasi Pengerjaan
+- ![WhatsApp Image 2024-09-22 at 23 52 31_f32b6711](https://github.com/user-attachments/assets/6d4baf19-e247-49f9-9b99-638290b52ff1)
+  
+- Dekrip password
+  ![Screenshot 2024-09-22 234935](https://github.com/user-attachments/assets/7df917fd-2171-441b-a67d-505beb744eaa)
+
+- ![WhatsApp Image 2024-09-22 at 23 56 51_5c933fe2](https://github.com/user-attachments/assets/c7f385fd-3b2c-4698-a270-35c27ec26d82)
+
+
